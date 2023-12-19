@@ -1,0 +1,81 @@
+.image {
+  position: relative;
+  margin-top: 24px;
+  padding: 25%;
+  background-image: url('../../../../public/sea.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: center;
+}
+
+.wrapperTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 18%;
+  left: 3%;
+  @media (width >= 398px) {
+    top: 34%;
+    gap: 20px;
+  }
+}
+
+.heroTitle {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  @media (width >= 648px) {
+    font-size: 40px;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #0d6efd;
+  border-radius: 15px;
+
+  color: #0d6efd;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  outline: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  will-change: transform;
+
+  @media (width >= 656px) {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  &:disabled {
+    pointer-events: none;
+  }
+  &:hover {
+    color: var(--white);
+    background-color: #0d6efd;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
