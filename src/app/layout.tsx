@@ -64,7 +64,7 @@ export default function RootLayout({
         </div>
 
         <div className='content flex'>
-          <p>By.Goodkatz | Free to use </p>
+          <p>Dubei A</p>
         </div>
       </body>
     </html>
