@@ -5,7 +5,7 @@ export const MainHeader = () => {
     <div className={css.image}>
       <div className={css.wrapperTitle}>
         <h1 className={css.heroTitle}>Вікна та Двері саме для Вас</h1>
-        <button className={css.btn}>Замовити</button>
+        <button className={css.btn}>Замовити вікно</button>
       </div>
     </div>
   );
