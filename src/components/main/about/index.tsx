@@ -40,7 +40,7 @@ export const About = () => {
         <li>
           <Card className='text-center'>
             <Card.Body>
-              <Card.Title className={css.cardTitle}>Якість</Card.Title>
+              <Card.Title className={css.cardTitle}>Ціни та знижки</Card.Title>
               <Card.Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                 consequuntur laborum repellat possimus eveniet ipsam molestiae

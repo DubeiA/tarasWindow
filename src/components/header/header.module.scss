@@ -63,10 +63,10 @@
 
 .btn {
   background-color: transparent;
-  border: 2px solid #1a1a1a;
+  border: 2px solid #0d6efd;
   border-radius: 15px;
 
-  color: #3b3b3b;
+  color: #0d6efd;
   cursor: pointer;
   display: inline-block;
 
@@ -93,8 +93,8 @@
     pointer-events: none;
   }
   &:hover {
-    color: #fff;
-    background-color: #1a1a1a;
+    color: var(--white);
+    background-color: #0d6efd;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
@@ -118,7 +118,7 @@
   top: 80px;
   right: 0;
   width: 50%;
-  height: 61%;
+  height: 60%;
   background-color: var(--white);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
