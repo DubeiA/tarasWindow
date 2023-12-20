@@ -147,7 +147,7 @@ section {
 
 .content {
   position: relative;
-  height: 20vh;
+  height: 42vh;
   text-align: center;
   background-color: white;
 }
@@ -182,13 +182,13 @@ section {
   }
 }
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .waves {
     height: 40px;
     min-height: 40px;
   }
   .content {
-    height: 30vh;
+    height: 100vh;
   }
   h1 {
     font-size: 24px;

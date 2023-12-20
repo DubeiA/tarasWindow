@@ -1,5 +1,25 @@
+.footer {
+  @media (width >= 768px) {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+}
+
+/*
+
+*/
+
 .address {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
+  margin-bottom: 16px;
+
+  gap: 8px;
+}
+
+.form {
+  padding: 0 10px;
 }
